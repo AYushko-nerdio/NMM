@@ -13,7 +13,7 @@ A value of 0 for WebexAllowAutoUpgrade secure variable prevents Webex App from d
 Use this option if you prefer to manually maintain upgrades.
 A value of 1 allows automatic upgrades for Webex App on the HVD. If using this option, ensure that your organization is configured for gold channel.
 
-Set these up in Nerdio Manager under Settings->Portal. The variables to create are:
+Set these up in Nerdio Manager under Settings->Integrations. The variables to create are:
     WebexDownloadURL
     WebexAllowAutoUpgrade
 #>
