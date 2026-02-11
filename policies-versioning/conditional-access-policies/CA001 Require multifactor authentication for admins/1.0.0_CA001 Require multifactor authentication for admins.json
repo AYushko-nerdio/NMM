@@ -1,5 +1,4 @@
 {
-    "_wap_tags": "Secure foundation, Zero Trust, Protect administrator",
     "templateId": "c7503427-338e-4c5e-902d-abe252abfb43",
     "displayName": "CA001: Require multifactor authentication for admins",
     "state": "enabled",

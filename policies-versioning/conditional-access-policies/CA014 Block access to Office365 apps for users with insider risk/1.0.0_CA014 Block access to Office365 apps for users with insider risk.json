@@ -1,5 +1,4 @@
 {
-    "_wap_tags": "Zero Trust",
     "templateId": "16aaa400-bfdf-4756-a420-ad2245d4cde8",
     "displayName": "CA014: Block access to Office365 apps for users with insider risk",
     "state": "enabled",

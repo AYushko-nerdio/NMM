@@ -1,5 +1,4 @@
 {
-    "_wap_tags": "Zero Trust, Protect administrator",
     "templateId": "6364131e-bc4a-47c4-a20b-33492d1fff6c",
     "displayName": "CA013: Require multifactor authentication for Microsoft admin portals",
     "state": "enabled",

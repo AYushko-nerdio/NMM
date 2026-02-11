@@ -1,5 +1,4 @@
 {
-    "_wap_tags": "Remote work, Protect administrator",
     "templateId": "c26a510a-3b8b-4023-8c44-d4f4c854e9f9",
     "displayName": "CA015: Require compliant or hybrid Azure AD joined device for admins",
     "state": "enabled",
