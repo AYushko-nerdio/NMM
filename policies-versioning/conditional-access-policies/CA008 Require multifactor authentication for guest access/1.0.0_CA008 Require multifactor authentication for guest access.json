@@ -1,5 +1,4 @@
 {
-    "_wap_tags": "Zero Trust, Remote work",
     "templateId": "a4072ac0-722b-4991-981b-7f9755daef14",
     "displayName": "CA008: Require multifactor authentication for guest access",
     "state": "enabled",

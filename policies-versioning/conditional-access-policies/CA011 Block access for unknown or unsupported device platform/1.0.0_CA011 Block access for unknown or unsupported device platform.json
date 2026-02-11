@@ -1,5 +1,4 @@
 {
-    "_wap_tags": "Zero Trust, Remote work",
     "templateId": "4e39a309-931e-4cb1-a371-e2beea168002",
     "displayName": "CA011: Block access for unknown or unsupported device platform",
     "state": "enabled",

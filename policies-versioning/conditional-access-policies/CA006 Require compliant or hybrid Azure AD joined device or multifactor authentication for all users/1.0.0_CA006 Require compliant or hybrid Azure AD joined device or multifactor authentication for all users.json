@@ -1,5 +1,4 @@
 {
-    "_wap_tags": "Secure foundation, Zero Trust",
     "templateId": "927c884e-7888-4e81-abc4-bd56ded28985",
     "displayName": "CA006: Require compliant or hybrid Azure AD joined device or multifactor authentication for all users",
     "state": "enabled",

@@ -1,5 +1,4 @@
 {
-    "_wap_tags": "Secure foundation, Zero Trust, Protect administrator",
     "templateId": "d8c51a9a-e6b1-454d-86af-554e7872e2c1",
     "displayName": "CA005: Require multifactor authentication for Azure management",
     "state": "enabled",
