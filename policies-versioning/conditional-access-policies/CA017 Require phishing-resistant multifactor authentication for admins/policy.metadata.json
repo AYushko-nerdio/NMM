@@ -1,7 +1,3 @@
 {
-  "versions": {
-    "default": {
-      "tags": ["Protect administrator", "Emerging threats"]
-    }
-  }
+  "tags": ["Protect administrator", "Emerging threats"]
 }

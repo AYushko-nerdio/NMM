@@ -1,7 +1,3 @@
 {
-  "versions": {
-    "default": {
-      "tags": ["Remote work"]
-    }
-  }
+  "tags": ["Remote work"]
 }
