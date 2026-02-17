@@ -1,7 +1,3 @@
 {
-  "versions": {
-    "default": {
-      "tags": ["Zero Trust", "Remote work"]
-    }
-  }
+  "tags": ["Zero Trust", "Remote work"]
 }

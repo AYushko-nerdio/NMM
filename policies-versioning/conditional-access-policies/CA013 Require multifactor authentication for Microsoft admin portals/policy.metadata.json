@@ -1,7 +1,3 @@
 {
-  "versions": {
-    "default": {
-      "tags": ["Zero Trust", "Protect administrator"]
-    }
-  }
+  "tags": ["Zero Trust", "Protect administrator"]
 }
