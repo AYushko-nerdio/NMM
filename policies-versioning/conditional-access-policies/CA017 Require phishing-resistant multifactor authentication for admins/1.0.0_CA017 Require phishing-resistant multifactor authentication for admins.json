@@ -1,5 +1,4 @@
 {
-    "_wap_tags": "Protect administrator, Emerging threats",
     "templateId": "76c03f19-ea37-4656-a772-a183b4ddb81d",
     "displayName": "CA017: Require phishing-resistant multifactor authentication for admins",
     "state": "enabled",

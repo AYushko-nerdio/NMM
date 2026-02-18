@@ -1,5 +1,4 @@
 {
-    "_wap_tags": "Secure foundation, Zero Trust",
     "templateId": "a297dd1a-21fe-4016-99a0-ba43ba64378c",
     "displayName": "CA007: Require MDM-enrolled and compliant device to access cloud apps for all users (Preview)",
     "state": "enabled",
