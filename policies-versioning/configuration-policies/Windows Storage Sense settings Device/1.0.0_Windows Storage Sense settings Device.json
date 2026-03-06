@@ -1,0 +1,92 @@
+{
+  "description": "Storage Sense settings to clear disk space including OneDrive and Downloads folders. Note - this will remove files older than 60 days from the users\u0027 Downloads folder and Recycle Bin. Apply to All Devices (optionally with filters) or Entra ID device groups.",
+  "name": "Windows Storage Sense settings Device",
+  "platforms": "windows10",
+  "settingCount": 6,
+  "technologies": "mdm",
+  "templateReference": {
+    "templateFamily": "none",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference"
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_storage_allowstoragesenseglobal_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_storage_allowstoragesenseglobal",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "0",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_storage_allowstoragesensetemporaryfilescleanup_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_storage_allowstoragesensetemporaryfilescleanup",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "1",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "simpleSettingValue": {
+          "value": 30,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_storage_configstoragesensecloudcontentdehydrationthreshold",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+      },
+      "id": "2",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "simpleSettingValue": {
+          "value": 60,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_storage_configstoragesensedownloadscleanupthreshold",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+      },
+      "id": "3",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "simpleSettingValue": {
+          "value": 7,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_storage_configstoragesenseglobalcadence",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+      },
+      "id": "4",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "simpleSettingValue": {
+          "value": 60,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_storage_configstoragesenserecyclebincleanupthreshold",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+      },
+      "id": "5",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    }
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy"
+}

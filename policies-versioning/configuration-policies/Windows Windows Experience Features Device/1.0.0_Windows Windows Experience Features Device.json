@@ -1,0 +1,292 @@
+{
+  "description": "Baseline configurations and policies to enable corporate device experience, restrict Windows consumer features, and configure basic lockdown on corporate device. Apply to All Devices (optionally with filters) or Entra ID device groups.",
+  "name": "Windows Windows Experience Features Device",
+  "platforms": "windows10",
+  "settingCount": 20,
+  "technologies": "mdm",
+  "templateReference": {
+    "templateFamily": "none",
+    "templateId": ""
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_admx_sensors_disablelocationscripting_2_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_admx_sensors_disablelocationscripting_2",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "0"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_admx_sensors_disablesensors_2_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_admx_sensors_disablesensors_2",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "1"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_admx_locationprovideradm_disablewindowslocationprovider_1_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_admx_locationprovideradm_disablewindowslocationprovider_1",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "2"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "3"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_admx_windowsstore_removewindowsstore_2_1",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_admx_windowsstore_removewindowsstore_2",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "4"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_authentication_allowaadpasswordreset_1",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_authentication_allowaadpasswordreset",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "5"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_experience_allowcortana_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_experience_allowcortana",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "6"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_experience_configurechaticon_3",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_experience_configurechaticon",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "7"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_1",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "8"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "9"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_privacy_letappsaccesscamera_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_privacy_letappsaccesscamera",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "10"
+    },
+    {
+      "settingInstance": {
+        "simpleSettingCollectionValue": [
+          {
+            "value": "MSTeams_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          },
+          {
+            "value": "Microsoft.Teams.SlimCoreVdiHost.win-x64_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          },
+          {
+            "value": "Microsoft.Teams.SlimCoreVdiHost.win-arm64_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          },
+          {
+            "value": "MicrosoftCorporationII.Windows365_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          }
+        ],
+        "settingDefinitionId": "device_vendor_msft_policy_config_privacy_letappsaccesscamera_forceallowtheseapps",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+      },
+      "id": "11"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_privacy_letappsaccesslocation_1",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_privacy_letappsaccesslocation",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "12"
+    },
+    {
+      "settingInstance": {
+        "simpleSettingCollectionValue": [
+          {
+            "value": "MSTeams_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          },
+          {
+            "value": "Microsoft.Teams.SlimCoreVdiHost.win-x64_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          },
+          {
+            "value": "Microsoft.Teams.SlimCoreVdiHost.win-arm64_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          },
+          {
+            "value": "MicrosoftCorporationII.Windows365_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          }
+        ],
+        "settingDefinitionId": "device_vendor_msft_policy_config_privacy_letappsaccesslocation_forceallowtheseapps",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+      },
+      "id": "13"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_privacy_letappsaccessmicrophone_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_privacy_letappsaccessmicrophone",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "14"
+    },
+    {
+      "settingInstance": {
+        "simpleSettingCollectionValue": [
+          {
+            "value": "MSTeams_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          },
+          {
+            "value": "Microsoft.Teams.SlimCoreVdiHost.win-x64_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          },
+          {
+            "value": "Microsoft.Teams.SlimCoreVdiHost.win-arm64_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          },
+          {
+            "value": "MicrosoftCorporationII.Windows365_8wekyb3d8bbwe",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          }
+        ],
+        "settingDefinitionId": "device_vendor_msft_policy_config_privacy_letappsaccessmicrophone_forceallowtheseapps",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+      },
+      "id": "15"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_search_allowsearchtouselocation_1",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_search_allowsearchtouselocation",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "16"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_system_allowlocation_2",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_system_allowlocation",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "17"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "18"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_windowslogon_enablefirstlogonanimation_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_windowslogon_enablefirstlogonanimation",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "19"
+    }
+  ]
+}
