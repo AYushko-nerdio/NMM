@@ -1,0 +1,88 @@
+{
+  "description": "Let the OneDrive client add a SharePoint Online team site library to Windows Explorer, to improve usability for users. Please set your customer\u0027s SharePoint Online Library ID by overriding the $InheritedVars.SPOLibraryID variable at the customer level. To get the required library ID, please refer to https://docs.microsoft.com/en-us/onedrive/use-group-policy#AutoMountTeamSites.",
+  "name": "Windows Microsoft 365 Apps OneDrive SharePoint settings Device",
+  "platforms": "windows10",
+  "settingCount": 3,
+  "technologies": "mdm",
+  "templateReference": {
+    "templateFamily": "none",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference"
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [
+            {
+              "groupSettingCollectionValue": [
+                {
+                  "children": [
+                    {
+                      "simpleSettingValue": {
+                        "value": "My Company\u0027s SharePoint",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                      },
+                      "settingDefinitionId": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_automountteamsites_automountteamsiteslistbox_key",
+                      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+                    },
+                    {
+                      "simpleSettingValue": {
+                        "value": "tenantId=xxx\u0026siteId=xxx\u0026webId=xxx\u0026listId=xxx\u0026webUrl=httpsxxx\u0026version=1",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                      },
+                      "settingDefinitionId": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_automountteamsites_automountteamsiteslistbox_value",
+                      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+                    }
+                  ],
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+                  "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+                }
+              ],
+              "settingDefinitionId": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_automountteamsites_automountteamsiteslistbox",
+              "groupSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationGroupSettingValue)",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance"
+            }
+          ],
+          "value": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_automountteamsites_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_automountteamsites",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "0",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_dehydratesyncedteamsites_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_dehydratesyncedteamsites",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "1",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_forcedlocalmassdeletedetection_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_forcedlocalmassdeletedetection",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "2",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    }
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy"
+}
