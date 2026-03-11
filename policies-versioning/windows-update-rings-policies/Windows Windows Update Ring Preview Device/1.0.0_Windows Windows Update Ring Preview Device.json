@@ -1,0 +1,31 @@
+{
+  "allowWindows11Upgrade": false,
+  "automaticUpdateMode": "autoInstallAtMaintenanceTime",
+  "autoRestartNotificationDismissal": "notConfigured",
+  "businessReadyUpdatesOnly": "windowsInsiderBuildRelease",
+  "deadlineForFeatureUpdatesInDays": 7,
+  "deadlineForQualityUpdatesInDays": 3,
+  "deadlineGracePeriodInDays": 2,
+  "deliveryOptimizationMode": "userDefined",
+  "driversExcluded": true,
+  "featureUpdatesDeferralPeriodInDays": 0,
+  "featureUpdatesRollbackWindowInDays": 60,
+  "installationSchedule": {
+    "activeHoursEnd": "20:00:00",
+    "activeHoursStart": "06:00:00",
+    "activeHoursStart@odata.type": "#TimeOfDay",
+    "activeHoursEnd@odata.type": "#TimeOfDay",
+    "@odata.type": "#microsoft.graph.windowsUpdateActiveHoursInstall"
+  },
+  "microsoftUpdateServiceAllowed": true,
+  "postponeRebootUntilAfterDeadline": false,
+  "prereleaseFeatures": "userDefined",
+  "qualityUpdatesDeferralPeriodInDays": 0,
+  "skipChecksBeforeRestart": false,
+  "updateNotificationLevel": "defaultNotifications",
+  "userPauseAccess": "disabled",
+  "userWindowsUpdateScanAccess": "enabled",
+  "description": "Baseline:- Assign to group \u0022Intune-Win-UpdateRingPreview-Device-Assigned\u0022.",
+  "displayName": "Windows Windows Update Ring Preview Device",
+  "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration"
+}

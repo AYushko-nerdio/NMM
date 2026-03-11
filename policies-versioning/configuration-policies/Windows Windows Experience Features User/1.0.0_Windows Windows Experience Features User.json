@@ -1,0 +1,148 @@
+{
+  "description": "Standard Windows corporate user interface settings to restrict access to consumer features and Microsoft accounts, configures Start menu and Taskbar options, hides public links in the Microsoft Store, etc. Apply to All Users (optionally with filters) or Entra ID user groups.",
+  "name": "Windows Windows Experience Features User",
+  "platforms": "windows10",
+  "settingCount": 6,
+  "technologies": "mdm",
+  "templateReference": {
+    "templateFamily": "none",
+    "templateId": ""
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "user_vendor_msft_policy_config_admx_windowsexplorer_nomanagemycomputerverb_1",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "user_vendor_msft_policy_config_admx_windowsexplorer_nomanagemycomputerverb",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "0"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "user_vendor_msft_policy_config_admx_windowsexplorer_nonetconnectdisconnect_1",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "user_vendor_msft_policy_config_admx_windowsexplorer_nonetconnectdisconnect",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "1"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "user_vendor_msft_policy_config_admx_sensors_disablelocation_1_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "user_vendor_msft_policy_config_admx_sensors_disablelocation_1",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "2"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata_0",
+                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+              },
+              "settingDefinitionId": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight_0",
+                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+              },
+              "settingDefinitionId": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures_0",
+                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+              },
+              "settingDefinitionId": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter_0",
+                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+              },
+              "settingDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience_0",
+                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+              },
+              "settingDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "device_vendor_msft_policy_config_experience_allowwindowstips_1",
+                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+              },
+              "settingDefinitionId": "device_vendor_msft_policy_config_experience_allowwindowstips",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_0",
+                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+              },
+              "settingDefinitionId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+          ],
+          "value": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "3"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonsettings_0",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonsettings",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "4"
+    },
+    {
+      "settingInstance": {
+        "simpleSettingValue": {
+          "value": "hide:gaming-gamebar;gaming-gamedvr;gaming-gamemode;deviceusage",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+        },
+        "settingDefinitionId": "user_vendor_msft_policy_config_settings_pagevisibilitylist",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+      },
+      "id": "5"
+    }
+  ]
+}

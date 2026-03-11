@@ -1,0 +1,39 @@
+{
+  "description": "Configure list of force-installed Microsoft 365 Progessive Web Apps that have no Store or Win32 application equivalent. Apply to All Users (optionally with filters) or Entra ID user groups.",
+  "name": "Windows Microsoft Edge Progessive Web Apps Device",
+  "platforms": "windows10",
+  "settingCount": 1,
+  "technologies": "mdm",
+  "templateReference": {
+    "templateFamily": "none",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference"
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [
+            {
+              "simpleSettingValue": {
+                "value": "[{\u0022url\u0022:\u0022https://loop.cloud.microsoft/?clientType=pwa\u0022,\u0022default_launch_container\u0022:\u0022window\u0022,\u0022custom_name\u0022:\u0022Microsoft Loop\u0022},{\u0022url\u0022:\u0022https://engage.cloud.microsoft/main/?utm_source=homescreen\u0026utm_medium=shortcut\u0026isPWA=true\u0022,\u0022default_launch_container\u0022:\u0022window\u0022,\u0022custom_name\u0022:\u0022Viva Engage\u0022},{\u0022url\u0022:\u0022https://learning.cloud.microsoft/home/providers\u0022,\u0022default_launch_container\u0022:\u0022window\u0022,\u0022custom_name\u0022:\u0022Viva Learning\u0022}]",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+              },
+              "settingDefinitionId": "user_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_webappinstallforcelist_webappinstallforcelist",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+            }
+          ],
+          "value": "user_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_webappinstallforcelist_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "user_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_webappinstallforcelist",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "0",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    }
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy"
+}

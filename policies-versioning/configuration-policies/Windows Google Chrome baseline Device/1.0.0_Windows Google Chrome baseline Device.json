@@ -1,0 +1,469 @@
+{
+  "description": "Baseline application policy settings for Google Chrome. This policy will lockdown Chrome, including preventing signing into the browser with a Google account. Apply to All Devices (optionally with filters) or Entra ID device groups.",
+  "name": "Windows Google Chrome baseline Device",
+  "platforms": "windows10",
+  "settingCount": 27,
+  "technologies": "mdm",
+  "templateReference": {
+    "templateFamily": "none",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference"
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_abusiveexperienceinterventionenforce_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_abusiveexperienceinterventionenforce",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "0",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_adssettingforintrusiveadssites_adssettingforintrusiveadssites_2",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+              },
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_adssettingforintrusiveadssites_adssettingforintrusiveadssites",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+          ],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_adssettingforintrusiveadssites_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_adssettingforintrusiveadssites",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "1",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_downloadrestrictions_downloadrestrictions_2",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+              },
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_downloadrestrictions_downloadrestrictions",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+          ],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_downloadrestrictions_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_downloadrestrictions",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "2",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_sslerroroverrideallowed_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_sslerroroverrideallowed",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "3",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_userfeedbackallowed_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_userfeedbackallowed",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "4",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_browsersignin_browsersignin_0",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+              },
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_browsersignin_browsersignin",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+          ],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_browsersignin_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_browsersignin",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "5",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~contentsettings_recommended_registeredprotocolhandlers_recommended_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~contentsettings_recommended_registeredprotocolhandlers_recommended",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "6",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_backgroundmodeenabled_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_backgroundmodeenabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "7",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_disablesafebrowsingproceedanyway_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_disablesafebrowsingproceedanyway",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "8",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_syncdisabled_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_syncdisabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "9",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_autofillcreditcardenabled_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_autofillcreditcardenabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "10",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_desktopsharinghubenabled_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_desktopsharinghubenabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "11",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_mediarecommendationsenabled_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_mediarecommendationsenabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "12",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_signininterceptionenabled_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_signininterceptionenabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "13",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_forcegooglesafesearch_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_forcegooglesafesearch",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "14",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~passwordmanager_passwordleakdetectionenabled_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~passwordmanager_passwordleakdetectionenabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "15",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~passwordmanager_passwordmanagerenabled_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~passwordmanager_passwordmanagerenabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "16",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremoteaccessconnections_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremoteaccessconnections",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "17",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingextendedreportingenabled_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingextendedreportingenabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "18",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_passwordprotectionwarningtrigger_passwordprotectionwarningtrigger_1",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+              },
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_passwordprotectionwarningtrigger_passwordprotectionwarningtrigger",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+          ],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_passwordprotectionwarningtrigger_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_passwordprotectionwarningtrigger",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "19",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingprotectionlevel_safebrowsingprotectionlevel_1",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+              },
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingprotectionlevel_safebrowsingprotectionlevel",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+          ],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingprotectionlevel_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingprotectionlevel",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "20",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_defaultbrowsersettingenabled_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_defaultbrowsersettingenabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "21",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~startup_showhomebutton_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~startup_showhomebutton",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "22",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [
+            {
+              "choiceSettingValue": {
+                "children": [],
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~startup_recommended_restoreonstartup_recommended_restoreonstartup_1",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+              },
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~startup_recommended_restoreonstartup_recommended_restoreonstartup",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            }
+          ],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~startup_recommended_restoreonstartup_recommended_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~startup_recommended_restoreonstartup_recommended",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "23",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [
+            {
+              "simpleSettingValue": {
+                "value": "https://m365.cloud.microsoft/?auth=2",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+              },
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~startup_recommended_homepagelocation_recommended_homepagelocation",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+            }
+          ],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~startup_recommended_homepagelocation_recommended_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~startup_recommended_homepagelocation_recommended",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "24",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~startup_recommended_showhomebutton_recommended_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_recommended~startup_recommended_showhomebutton_recommended",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "25",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_hardwareaccelerationmodeenabled_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_hardwareaccelerationmodeenabled",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "26",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    }
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy"
+}

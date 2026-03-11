@@ -1,0 +1,198 @@
+{
+  "description": "Settings for Windows Update. Ensure Windows Update for Business reports have been configured for these settings to be applicable. Apply to All Devices (optionally with filters) or Entra ID device groups.",
+  "name": "Windows Windows Update settings Device",
+  "platforms": "windows10",
+  "settingCount": 13,
+  "technologies": "mdm",
+  "templateReference": {
+    "templateFamily": "none",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference"
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_system_allowcommercialdatapipeline_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_system_allowcommercialdatapipeline",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "0",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_system_allowdevicenameindiagnosticdata_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_system_allowdevicenameindiagnosticdata",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "1",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_system_allowtelemetry_3",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_system_allowtelemetry",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "2",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_system_allowupdatecomplianceprocessing_16",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_system_allowupdatecomplianceprocessing",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "3",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_system_allowwufbcloudprocessing_8",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_system_allowwufbcloudprocessing",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "4",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_system_configuretelemetryoptinchangenotification_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_system_configuretelemetryoptinchangenotification",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "5",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_system_configuretelemetryoptinsettingsux_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_system_configuretelemetryoptinsettingsux",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "6",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_update_allowautowindowsupdatedownloadovermeterednetwork_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_update_allowautowindowsupdatedownloadovermeterednetwork",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "7",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_update_allowoptionalcontent_0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_update_allowoptionalcontent",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "8",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_update_allowtemporaryenterprisefeaturecontrol_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_update_allowtemporaryenterprisefeaturecontrol",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "9",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_update_autorestartnotificationschedule_240",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_update_autorestartnotificationschedule_v2",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "10",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_update_autorestartrequirednotificationdismissal_2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_update_autorestartrequirednotificationdismissal",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "11",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "12",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    }
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy"
+}

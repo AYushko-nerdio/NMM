@@ -1,0 +1,69 @@
+{
+  "description": "",
+  "name": "macOS MDE 1. Approved System Extensions",
+  "platforms": "macOS",
+  "settingCount": 1,
+  "technologies": "mdm, appleRemoteManagement",
+  "templateReference": {
+    "templateFamily": "none",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference"
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "groupSettingCollectionValue": [
+          {
+            "children": [
+              {
+                "groupSettingCollectionValue": [
+                  {
+                    "children": [
+                      {
+                        "simpleSettingCollectionValue": [
+                          {
+                            "value": "com.microsoft.wdav.epsext",
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                          },
+                          {
+                            "value": "com.microsoft.wdav.netext\t",
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                          }
+                        ],
+                        "settingDefinitionId": "com.apple.system-extension-policy_allowedsystemextensions_generickey",
+                        "simpleSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSimpleSettingValue)",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+                      },
+                      {
+                        "simpleSettingValue": {
+                          "value": "UBF8T346G9",
+                          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                        },
+                        "settingDefinitionId": "com.apple.system-extension-policy_allowedsystemextensions_generickey_keytobereplaced",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+                      }
+                    ],
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+                    "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+                  }
+                ],
+                "settingDefinitionId": "com.apple.system-extension-policy_allowedsystemextensions",
+                "groupSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationGroupSettingValue)",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance"
+              }
+            ],
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+            "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)"
+          }
+        ],
+        "settingDefinitionId": "com.apple.system-extension-policy_com.apple.system-extension-policy",
+        "groupSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationGroupSettingValue)",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance"
+      },
+      "id": "0",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    }
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy"
+}
