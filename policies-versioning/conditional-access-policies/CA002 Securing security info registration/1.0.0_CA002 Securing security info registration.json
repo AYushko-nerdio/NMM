@@ -25,12 +25,18 @@
             "applicationFilter": null
         },
         "users": {
-            "includeUsers": ["None"],
-            "excludeUsers": [],
+            "includeUsers": [
+                "All"
+            ],
+            "excludeUsers": [
+                "GuestsOrExternalUsers"
+            ],
             "includeGroups": [],
             "excludeGroups": [],
             "includeRoles": [],
-            "excludeRoles": [],
+            "excludeRoles": [
+                "62e90394-69f5-4237-9190-012177145e10"
+            ],
             "includeGuestsOrExternalUsers": null,
             "excludeGuestsOrExternalUsers": null
         },
