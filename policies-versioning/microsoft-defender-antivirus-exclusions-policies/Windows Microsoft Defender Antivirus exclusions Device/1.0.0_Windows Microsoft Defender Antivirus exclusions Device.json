@@ -1,0 +1,41 @@
+{
+  "description": "Folder path exclusions to support Intune clients. Exclusions may need to be updated in MDE as well. Apply to All Devices (optionally with filters) or Entra ID device groups.",
+  "name": "Windows Microsoft Defender Antivirus exclusions Device",
+  "platforms": "windows10",
+  "settingCount": 1,
+  "technologies": "mdm, microsoftSense",
+  "templateReference": {
+    "templateDisplayName": "Microsoft Defender Antivirus exclusions",
+    "templateDisplayVersion": "Version 1",
+    "templateFamily": "endpointSecurityAntivirus",
+    "templateId": "45fea5e9-280d-4da1-9792-fb5736da0ca9_1",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference"
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "simpleSettingCollectionValue": [
+          {
+            "value": "C:\\Program Files (x86)\\Microsoft Intune Management Extension\\Content\\:{ScanTrigger:OnAccess,PathType:folder}",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          },
+          {
+            "value": "C:\\Windows\\IMECache\\:{ScanTrigger:OnAccess,PathType:folder}",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          }
+        ],
+        "settingDefinitionId": "device_vendor_msft_policy_config_defender_excludedpaths",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "aaf04adc-c639-464f-b4a7-152e784092e8",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingInstanceTemplateReference"
+        },
+        "simpleSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSimpleSettingValue)",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+      },
+      "id": "0",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    }
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy"
+}

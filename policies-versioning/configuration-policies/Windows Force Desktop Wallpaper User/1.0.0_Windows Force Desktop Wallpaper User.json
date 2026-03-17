@@ -1,0 +1,40 @@
+{
+  "description": "Change the default Windows wallpaper to a custom wallpaper. You can clone and change the URL to point to an image of your choice.",
+  "name": "Windows Force Desktop Wallpaper User",
+  "platforms": "windows10",
+  "settingCount": 2,
+  "technologies": "mdm",
+  "templateReference": {
+    "templateFamily": "none",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference"
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "simpleSettingValue": {
+          "value": "https://msdesign.blob.core.windows.net/wallpapers/Microsoft_Nostalic_Clippy_4k.jpg",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+        },
+        "settingDefinitionId": "vendor_msft_personalization_desktopimageurl",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+      },
+      "id": "0",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    },
+    {
+      "settingInstance": {
+        "simpleSettingValue": {
+          "value": "https://msdesign.blob.core.windows.net/wallpapers/Microsoft_Nostalic_Clippy_4k.jpg",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+        },
+        "settingDefinitionId": "vendor_msft_personalization_lockscreenimageurl",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+      },
+      "id": "1",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting"
+    }
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy"
+}

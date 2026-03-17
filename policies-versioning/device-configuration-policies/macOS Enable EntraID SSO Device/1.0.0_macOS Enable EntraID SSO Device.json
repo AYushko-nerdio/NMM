@@ -1,0 +1,78 @@
+{
+  "adminShowHostInfo": false,
+  "appAssociatedDomains": [],
+  "associatedDomains": [],
+  "authorizedUsersListHidden": false,
+  "authorizedUsersListHideAdminUsers": false,
+  "authorizedUsersListHideLocalUsers": false,
+  "authorizedUsersListHideMobileAccounts": false,
+  "authorizedUsersListIncludeNetworkUsers": false,
+  "authorizedUsersListShowOtherManagedUsers": false,
+  "autoLaunchItems": [],
+  "consoleAccessDisabled": false,
+  "contentCachingBlockDeletion": false,
+  "contentCachingClientListenRanges": [],
+  "contentCachingClientPolicy": "notConfigured",
+  "contentCachingDisableConnectionSharing": false,
+  "contentCachingEnabled": false,
+  "contentCachingForceConnectionSharing": false,
+  "contentCachingKeepAwake": false,
+  "contentCachingLogClientIdentities": false,
+  "contentCachingMaxSizeBytes": 0,
+  "contentCachingParents": [],
+  "contentCachingParentSelectionPolicy": "notConfigured",
+  "contentCachingPeerFilterRanges": [],
+  "contentCachingPeerListenRanges": [],
+  "contentCachingPeerPolicy": "notConfigured",
+  "contentCachingPort": 0,
+  "contentCachingPublicRanges": [],
+  "contentCachingShowAlerts": false,
+  "contentCachingType": "notConfigured",
+  "logOutDisabledWhileLoggedIn": false,
+  "macOSSingleSignOnExtension": {
+    "bundleIdAccessControlList": [
+      "com.microsoft.edgemac",
+      "com.Microsoft.Word",
+      "com.Microsoft.Excel",
+      "com.Microsoft.Powerpoint",
+      "com.Microsoft.Outlook",
+      "com.microsoft.OneDrive-mac",
+      "com.microsoft.teams",
+      "com.microsoft.onenote.mac",
+      "com.microsoft.to-do-mac",
+      "com.microsoft.rdc.macos"
+    ],
+    "configurations": [
+      {
+        "value": 1,
+        "key": "browser_sso_interaction_enabled",
+        "@odata.type": "#microsoft.graph.keyIntegerValuePair"
+      },
+      {
+        "value": 1,
+        "key": "disable_explicit_app_prompt",
+        "@odata.type": "#microsoft.graph.keyIntegerValuePair"
+      },
+      {
+        "value": "com.microsoft.,com.apple.",
+        "key": "AppPrefixAllowList",
+        "@odata.type": "#microsoft.graph.keyStringValuePair"
+      }
+    ],
+    "enableSharedDeviceMode": false,
+    "bundleIdAccessControlList@odata.type": "#Collection(String)",
+    "configurations@odata.type": "#Collection(microsoft.graph.keyTypedValuePair)",
+    "@odata.type": "#microsoft.graph.macOSAzureAdSingleSignOnExtension"
+  },
+  "powerOffDisabledWhileLoggedIn": false,
+  "restartDisabled": false,
+  "restartDisabledWhileLoggedIn": false,
+  "screenLockDisableImmediate": false,
+  "shutDownDisabled": false,
+  "shutDownDisabledWhileLoggedIn": false,
+  "sleepDisabled": false,
+  "airPrintDestinations": [],
+  "description": "Enable Entra ID single sign-on",
+  "displayName": "macOS Enable EntraID SSO Device",
+  "@odata.type": "#microsoft.graph.macOSDeviceFeaturesConfiguration"
+}

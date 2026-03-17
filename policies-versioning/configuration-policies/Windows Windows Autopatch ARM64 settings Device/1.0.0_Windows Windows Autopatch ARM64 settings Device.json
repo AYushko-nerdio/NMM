@@ -1,0 +1,37 @@
+{
+  "description": "Disables Compiled Hybrid PE (CHPE) \u2014 a unique prerequisite for Arm64 devices to enable Windows Autopatch.",
+  "name": "Windows Windows Autopatch ARM64 settings Device",
+  "platforms": "windows10",
+  "settingCount": 2,
+  "technologies": "mdm",
+  "templateReference": {
+    "templateFamily": "none",
+    "templateId": ""
+  },
+  "settings": [
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_system_disablechpe_1",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_system_disablechpe",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "0"
+    },
+    {
+      "settingInstance": {
+        "choiceSettingValue": {
+          "children": [],
+          "value": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity_2",
+          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      },
+      "id": "1"
+    }
+  ]
+}
