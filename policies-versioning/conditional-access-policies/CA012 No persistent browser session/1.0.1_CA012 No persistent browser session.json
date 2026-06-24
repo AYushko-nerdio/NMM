@@ -1,0 +1,51 @@
+{
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "devices": {
+      "deviceFilter": {
+        "mode": "include",
+        "rule": "device.trustType -ne \u0022ServerAD\u0022 -or device.isCompliant -ne True"
+      },
+      "excludeDevices": [],
+      "excludeDeviceStates": [],
+      "includeDevices": [],
+      "includeDeviceStates": []
+    },
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeRoles": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "displayName": "CA012: No persistent browser session",
+  "sessionControls": {
+    "persistentBrowser": {
+      "isEnabled": true,
+      "@odata.type": "#microsoft.graph.persistentBrowserSessionControl",
+      "mode": "never"
+    },
+    "signInFrequency": {
+      "isEnabled": true,
+      "@odata.type": "#microsoft.graph.signInFrequencySessionControl",
+      "authenticationType": "primaryAndSecondaryAuthentication",
+      "frequencyInterval": "timeBased",
+      "type": "hours",
+      "value": 1
+    }
+  },
+  "state": "enabled"
+}

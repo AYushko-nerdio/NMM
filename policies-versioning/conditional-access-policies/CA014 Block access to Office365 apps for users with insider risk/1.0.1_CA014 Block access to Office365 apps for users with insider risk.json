@@ -1,0 +1,35 @@
+{
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "Office365"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "insiderRiskLevels": "elevated",
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeRoles": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "displayName": "CA014: Block access to Office365 apps for users with insider risk",
+  "grantControls": {
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}

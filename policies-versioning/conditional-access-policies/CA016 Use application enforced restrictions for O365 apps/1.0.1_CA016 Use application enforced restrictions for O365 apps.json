@@ -1,0 +1,32 @@
+{
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "Office365"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeRoles": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "displayName": "CA016: Use application enforced restrictions for O365 apps",
+  "sessionControls": {
+    "applicationEnforcedRestrictions": {
+      "isEnabled": true,
+      "@odata.type": "#microsoft.graph.applicationEnforcedRestrictionsSessionControl"
+    }
+  },
+  "state": "enabled"
+}
