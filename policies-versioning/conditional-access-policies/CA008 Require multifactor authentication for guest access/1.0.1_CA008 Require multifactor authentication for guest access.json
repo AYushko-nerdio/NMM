@@ -1,0 +1,34 @@
+{
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "conditions": {
+    "applications": {
+      "excludeApplications": [],
+      "includeApplications": [
+        "All"
+      ],
+      "includeUserActions": []
+    },
+    "clientAppTypes": [
+      "all"
+    ],
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "users": {
+      "excludeRoles": [],
+      "includeRoles": [],
+      "includeUsers": [
+        "None"
+      ]
+    }
+  },
+  "displayName": "CA008: Require multifactor authentication for guest access",
+  "grantControls": {
+    "builtInControls": [
+      "mfa"
+    ],
+    "customAuthenticationFactors": [],
+    "operator": "OR",
+    "termsOfUse": []
+  },
+  "state": "enabled"
+}
