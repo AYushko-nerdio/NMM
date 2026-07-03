@@ -39,5 +39,6 @@
   "storageRequireEncryption": false,
   "tpmRequired": false,
   "validOperatingSystemBuildRanges": [],
-  "virtualizationBasedSecurityEnabled": false
+  "virtualizationBasedSecurityEnabled": false,
+  "wslDistributions": []
 }
