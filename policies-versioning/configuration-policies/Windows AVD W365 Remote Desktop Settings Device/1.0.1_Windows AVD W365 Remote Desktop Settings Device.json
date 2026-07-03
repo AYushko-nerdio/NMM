@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Remote Desktop settings to apply to Azure Virtual Desktop and Windows 365 devices. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows AVD W365 Remote Desktop Settings Device",
   "platforms": "windows10",

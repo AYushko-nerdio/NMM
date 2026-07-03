@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Microsoft recommended Standard Protection Attack Surface Reduction rules in Block mode, with all other ASR rules in Audit mode. https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-rules-reference. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Attack Surface Reduction Standard Rules Block mode",
   "platforms": "windows10",

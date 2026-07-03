@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Configures Microsoft Defender update channels. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Microsoft Defender Antivirus update controls Device ",
   "platforms": "windows10",

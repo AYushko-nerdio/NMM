@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Microsoft Defender antivirus and antimalware settings. Note 'Local Admin Merge' is enabled. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Microsoft Defender Antivirus baseline Device",
   "platforms": "windows10",

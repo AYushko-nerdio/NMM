@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Baseline:- Assign to group \"Intune-Win-Corporate-Device-Dynamic\"Sets Microsoft 365 Apps Update Deadline and Deferral. ",
   "name": "Windows Microsoft 365 Apps Updates Broad Device",
   "platforms": "windows10",

@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Microsoft Defender SmartScreen settings for Windows Explorer (Windows 10, Windows 11), and Phishing Protection in Windows 11. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Enable SmartScreen and Phishing Protection Device",
   "platforms": "windows10",

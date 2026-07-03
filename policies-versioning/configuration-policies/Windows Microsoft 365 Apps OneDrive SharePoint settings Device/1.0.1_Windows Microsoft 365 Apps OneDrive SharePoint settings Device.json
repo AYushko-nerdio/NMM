@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Let the OneDrive client add a SharePoint Online team site library to Windows Explorer, to improve usability for users. Please set your customer's SharePoint Online Library ID by overriding the $InheritedVars.SPOLibraryID variable at the customer level. To get the required library ID, please refer to https://docs.microsoft.com/en-us/onedrive/use-group-policy#AutoMountTeamSites.",
   "name": "Windows Microsoft 365 Apps OneDrive SharePoint settings Device",
   "platforms": "windows10",

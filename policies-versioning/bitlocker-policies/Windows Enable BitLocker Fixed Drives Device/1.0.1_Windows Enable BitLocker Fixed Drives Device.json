@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "This policy enables BitLocker to fully encrypt fixed OS and data disks, based on AES 128-bit XTS. Keys will be stored in Azure AD and client-driven key rotation will be enabled. There's no block for write-access to unencrypted removable drives.",
   "name": "Windows Enable BitLocker Fixed drives Device",
   "platforms": "windows10",

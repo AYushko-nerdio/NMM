@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Configures OneDrive hardening settings to enhance security and compliance. Important - Update tenant GUID from the Entra ID. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Microsoft 365 Apps OneDrive harden settings Device",
   "platforms": "windows10",

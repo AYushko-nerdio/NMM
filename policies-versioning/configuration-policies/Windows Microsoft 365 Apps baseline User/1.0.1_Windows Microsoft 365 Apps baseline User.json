@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Configure user targeted policy settings for the Microsoft 365 Apps. Apply to All Users (optionally with filters) or Entra ID user groups.",
   "name": "Windows Microsoft 365 Apps baseline User",
   "platforms": "windows10",

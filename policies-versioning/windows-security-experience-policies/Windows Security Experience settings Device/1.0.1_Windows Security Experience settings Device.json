@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Windows Security Center settings and support contact into. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Security Experience settings Device",
   "platforms": "windows10",

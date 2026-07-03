@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Folder path exclusions to support Intune clients. Exclusions may need to be updated in MDE as well. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Microsoft Defender Antivirus exclusions Device",
   "platforms": "windows10",

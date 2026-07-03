@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Baseline:- Assign to group \"Intune-Win-UpdateRingLimited-Device-Assigned\".Deploys Edge Stable Channel Updates. This policy is required by the Windows Autopatch service.",
   "name": "Windows Microsoft Edge Updates Limited Device",
   "platforms": "windows10",

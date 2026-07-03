@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Settings for Windows Update. Ensure Windows Update for Business reports have been configured for these settings to be applicable. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Windows Update settings Device",
   "platforms": "windows10",

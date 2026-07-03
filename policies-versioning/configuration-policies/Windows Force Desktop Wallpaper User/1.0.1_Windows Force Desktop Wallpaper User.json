@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Change the default Windows wallpaper to a custom wallpaper. You can clone and change the URL to point to an image of your choice.",
   "name": "Windows Force Desktop Wallpaper User",
   "platforms": "windows10",
