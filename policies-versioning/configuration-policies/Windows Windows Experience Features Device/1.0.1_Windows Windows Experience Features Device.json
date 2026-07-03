@@ -10,7 +10,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_admx_sensors_disablelocationscripting_2",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_sensors_disablelocationscripting_2_0"
         }
@@ -22,7 +22,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_admx_sensors_disablesensors_2",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_sensors_disablesensors_2_0"
         }
@@ -34,7 +34,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_admx_locationprovideradm_disablewindowslocationprovider_1",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_locationprovideradm_disablewindowslocationprovider_1_0"
         }
@@ -46,7 +46,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_0"
         }
@@ -58,7 +58,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_admx_windowsstore_removewindowsstore_2",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_windowsstore_removewindowsstore_2_1"
         }
@@ -70,7 +70,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_authentication_allowaadpasswordreset",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_authentication_allowaadpasswordreset_1"
         }
@@ -82,7 +82,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_experience_allowcortana",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_experience_allowcortana_0"
         }
@@ -94,7 +94,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_experience_configurechaticon",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_experience_configurechaticon_3"
         }
@@ -106,7 +106,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_1"
         }
@@ -118,7 +118,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1"
         }
@@ -130,7 +130,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_privacy_letappsaccesscamera",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_privacy_letappsaccesscamera_0"
         }
@@ -167,7 +167,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_privacy_letappsaccesslocation",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_privacy_letappsaccesslocation_1"
         }
@@ -204,7 +204,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_privacy_letappsaccessmicrophone",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_privacy_letappsaccessmicrophone_0"
         }
@@ -241,7 +241,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_search_allowsearchtouselocation",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_search_allowsearchtouselocation_1"
         }
@@ -253,7 +253,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_system_allowlocation",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_system_allowlocation_2"
         }
@@ -265,7 +265,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0"
         }
@@ -277,7 +277,7 @@
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "settingDefinitionId": "device_vendor_msft_policy_config_windowslogon_enablefirstlogonanimation",
         "choiceSettingValue": {
-          "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_windowslogon_enablefirstlogonanimation_0"
         }
