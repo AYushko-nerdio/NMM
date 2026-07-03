@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Configure list of force-installed Microsoft 365 Progessive Web Apps that have no Store or Win32 application equivalent. Apply to All Users (optionally with filters) or Entra ID user groups.",
   "name": "Windows Microsoft Edge Progessive Web Apps Device",
   "platforms": "windows10",

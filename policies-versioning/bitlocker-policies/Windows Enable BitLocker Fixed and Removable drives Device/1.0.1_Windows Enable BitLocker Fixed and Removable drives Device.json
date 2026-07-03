@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "",
   "name": "Windows Enable BitLocker Fixed and Removable drives Device",
   "platforms": "windows10",

@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Configurations for device lock and sign-in. Apply to All Devices with optional features, or copy to create settings to apply to different device types",
   "name": "Windows Device Lock Sign-in settings Device",
   "platforms": "windows10",

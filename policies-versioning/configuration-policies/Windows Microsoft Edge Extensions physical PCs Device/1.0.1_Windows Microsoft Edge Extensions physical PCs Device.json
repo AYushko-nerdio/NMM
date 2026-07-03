@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Configures extension settings in Microsoft Edge - prevents users from adding extensions, and configures a list of force installed extensions. Adds: Microsoft Editor, uBlock Origin, My Apps Secure Sign-in Extension. Also enables the Edge sidebar & Copilot default extensions. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Microsoft Edge Extensions physical PCs Device",
   "platforms": "windows10",

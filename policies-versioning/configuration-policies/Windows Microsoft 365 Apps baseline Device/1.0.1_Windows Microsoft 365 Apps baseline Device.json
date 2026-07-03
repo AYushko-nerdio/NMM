@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Configure Microsoft 365 Apps settings - validate channel. Assumes a single Microsoft 365 Apps package has been deployed, including Project and Visio - viewer mode is enabled so that users without a license can use these applications in viewer mode. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Microsoft 365 Apps baseline Device",
   "platforms": "windows10",

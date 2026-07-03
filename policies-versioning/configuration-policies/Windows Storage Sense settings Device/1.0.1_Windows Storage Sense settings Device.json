@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Storage Sense settings to clear disk space including OneDrive and Downloads folders. Note - this will remove files older than 60 days from the users' Downloads folder and Recycle Bin. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Storage Sense settings Device",
   "platforms": "windows10",

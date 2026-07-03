@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Windows 10/11 Delivery Optimization settings. Validate Windows Autopilot and application deployment functionality after applying to devices. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Delivery Optimization Device",
   "platforms": "windows10",

@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "",
   "name": "macOS MDE 1. Approved System Extensions",
   "platforms": "macOS",

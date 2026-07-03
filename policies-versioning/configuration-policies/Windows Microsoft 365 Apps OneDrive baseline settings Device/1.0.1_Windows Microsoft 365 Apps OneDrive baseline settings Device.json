@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Configure OneDrive for Business including SSO and Known Folder Move. Important - Update tenant GUID from the Entra ID. Apply to All Devices (optionally with filters) or Entra ID device groups.",
   "name": "Windows Microsoft 365 Apps OneDrive baseline settings Device",
   "platforms": "windows10",

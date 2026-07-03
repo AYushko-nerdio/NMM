@@ -1,5 +1,4 @@
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
   "description": "Baseline:- Assign to group \"Intune-Win-UpdateRingPreview-Device-Assigned\".Deploys Edge Beta Channel Updates. This policy is required by the Windows Autopatch service.",
   "name": "Windows Microsoft Edge Updates Preview Device",
   "platforms": "windows10",
