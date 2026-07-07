@@ -17,7 +17,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_controlpolicyconflict_mdmwinsovergp",
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null
       },
       "id": "0"
     },
@@ -32,14 +33,16 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
               },
               "settingDefinitionId": "pdates~policy~l_microsoftofficemachine~l_updates_l_updatebranch_l_updatebranchid",
-              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "auditRuleInformation": null
             }
           ],
           "value": "pdates~policy~l_microsoftofficemachine~l_updates_l_updatebranch_1",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
         },
         "settingDefinitionId": "pdates~policy~l_microsoftofficemachine~l_updates_l_updatebranch",
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null
       },
       "id": "1"
     },
@@ -53,14 +56,16 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
               },
               "settingDefinitionId": "device_vendor_msft_policy_config_office16v3~policy~l_microsoftofficemachine~l_updates_l_deferupdatedays_l_deferupdatedaysid",
-              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_office16v3~policy~l_microsoftofficemachine~l_updates_l_deferupdatedays_1",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v3~policy~l_microsoftofficemachine~l_updates_l_deferupdatedays",
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null
       },
       "id": "2"
     },
@@ -72,7 +77,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_hideupdatenotifications",
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null
       },
       "id": "3"
     },
@@ -84,7 +90,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_enableautomaticupdates",
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null
       },
       "id": "4"
     },
@@ -96,7 +103,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_hideenabledisableupdates",
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null
       },
       "id": "5"
     },
@@ -108,7 +116,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_officemgmtcom",
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null
       },
       "id": "6"
     },
@@ -122,14 +131,16 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
               },
               "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_updatepath_l_updatepathid",
-              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_updatepath_1",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_updatepath",
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null
       },
       "id": "7"
     },
@@ -143,14 +154,16 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
               },
               "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_updatedeadline_l_updatedeadlineid",
-              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_updatedeadline_1",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
         },
         "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_updatedeadline",
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null
       },
       "id": "8"
     }

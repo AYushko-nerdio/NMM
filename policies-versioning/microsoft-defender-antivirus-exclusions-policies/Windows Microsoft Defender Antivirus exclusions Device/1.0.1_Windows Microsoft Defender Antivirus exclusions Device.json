@@ -21,7 +21,8 @@
             "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
             "value": "C:\\Windows\\IMECache\\:{ScanTrigger:OnAccess,PathType:folder}"
           }
-        ]
+        ],
+        "auditRuleInformation": null
       }
     }
   ],

@@ -13,7 +13,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_restoreonstartup_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -25,7 +26,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_adssettingforintrusiveadssites_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -37,7 +39,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_downloadrestrictions_2"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -49,7 +52,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_passwordmonitorallowed_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -61,7 +65,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_personalizationreportingenabled_false"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -73,7 +78,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_userfeedbackallowed_false"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -85,7 +91,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_sslerroroverrideallowed_false"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -97,7 +104,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_browsersignin_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -109,7 +117,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_configuredonottrack_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -121,7 +130,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_smartscreenenabled_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -133,7 +143,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_smartscreenpuaenabled_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -145,7 +156,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_passwordprotectionwarningtrigger_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -157,7 +169,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_sleepingtabsenabled_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -168,7 +181,8 @@
         "simpleSettingValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "https://m365.cloud.microsoft/?auth=2"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -180,7 +194,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_newtabpagesetfeedtype_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -192,7 +207,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_proactiveauthenabled_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -204,7 +220,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_forcesync_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -216,7 +233,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_newtabpagehidedefaulttopsites_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -228,7 +246,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_hidefirstrunexperience_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -240,7 +259,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_relaunchnotification_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -252,7 +272,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_preventsmartscreenpromptoverride_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -264,7 +285,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_preventsmartscreenpromptoverrideforfiles_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -276,7 +298,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_edgeshoppingassistantenabled_false"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -288,7 +311,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_showhomebutton_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -300,7 +324,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_showofficeshortcutinfavoritesbar_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -312,7 +337,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_showmicrosoftrewards_false"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -324,7 +350,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "com.apple.managedclient.preferences_hardwareaccelerationmodeenabled_true"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

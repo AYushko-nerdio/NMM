@@ -19,11 +19,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_office16v3~policy~l_microsoftofficemachine~l_globaloptionsmachine~l_customizemachine_l_defaultuithememachine_l_defaultuithemeenum_0"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_office16v3~policy~l_microsoftofficemachine~l_globaloptionsmachine~l_customizemachine_l_defaultuithememachine_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -35,7 +37,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_office16v6~policy~l_microsoftofficemachine~l_licensingsettings_l_viewermode_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -47,7 +50,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_office16v5~policy~l_microsoftofficemachine~l_updates_l_preventbinginstall_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -59,7 +63,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_enableautomaticupdates_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -71,7 +76,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_hideenabledisableupdates_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -88,11 +94,13 @@
               "simpleSettingValue": {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                 "value": "0"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_updatedeadline_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -104,7 +112,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_automaticallyconfigureprofilebasedonactive_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

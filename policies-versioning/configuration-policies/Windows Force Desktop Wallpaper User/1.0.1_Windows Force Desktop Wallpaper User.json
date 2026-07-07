@@ -12,7 +12,8 @@
         "simpleSettingValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "https://msdesign.blob.core.windows.net/wallpapers/Microsoft_Nostalic_Clippy_4k.jpg"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -23,7 +24,8 @@
         "simpleSettingValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "https://msdesign.blob.core.windows.net/wallpapers/Microsoft_Nostalic_Clippy_4k.jpg"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

@@ -13,7 +13,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_system_allowcommercialdatapipeline_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -25,7 +26,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_system_allowdevicenameindiagnosticdata_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -37,7 +39,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_system_allowtelemetry_3"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -49,7 +52,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_system_allowupdatecomplianceprocessing_16"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -61,7 +65,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_system_allowwufbcloudprocessing_8"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -73,7 +78,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_system_configuretelemetryoptinchangenotification_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -85,7 +91,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_system_configuretelemetryoptinsettingsux_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -97,7 +104,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_update_allowautowindowsupdatedownloadovermeterednetwork_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -109,7 +117,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_update_allowoptionalcontent_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -121,7 +130,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_update_allowtemporaryenterprisefeaturecontrol_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -133,7 +143,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_update_autorestartnotificationschedule_240"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -145,7 +156,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_update_autorestartrequirednotificationdismissal_2"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -157,7 +169,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

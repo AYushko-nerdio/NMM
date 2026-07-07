@@ -13,7 +13,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_onedrivengscv6~policy~onedrivengsc_enablefeedbackandsupport_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -32,11 +33,13 @@
                   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                   "value": "*.lnk"
                 }
-              ]
+              ],
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_onedrivengscv4~policy~onedrivengsc_enableodignorelistfromgpo_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -48,7 +51,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_kfmblockoptout_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -60,7 +64,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_disablepersonalsync_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -78,11 +83,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_gposetupdatering_gposetupdatering_dropdown_5"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_gposetupdatering_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -100,7 +107,8 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_kfmoptinnowizard_kfmoptinnowizard_dropdown_1"
-              }
+              },
+              "auditRuleInformation": null
             },
             {
               "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
@@ -108,11 +116,13 @@
               "simpleSettingValue": {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                 "value": "%OrganizationId%"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_kfmoptinnowizard_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -124,7 +134,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_silentaccountconfig_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -136,7 +147,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_filesondemandenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -153,11 +165,13 @@
               "simpleSettingValue": {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
                 "value": 2048
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_onedrivengscv3~policy~onedrivengsc_warningmindiskspacelimitinmb_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

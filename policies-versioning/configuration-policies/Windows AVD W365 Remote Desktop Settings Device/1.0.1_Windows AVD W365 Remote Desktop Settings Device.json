@@ -13,7 +13,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_terminalserver_ts_time_zone_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -31,11 +32,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_remotedesktopservices_limitclienttoserverclipboardredirection_ts_cs_clipboard_restriction_text_4"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_remotedesktopservices_limitclienttoserverclipboardredirection_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -53,11 +56,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_remotedesktopservices_limitservertoclientclipboardredirection_ts_sc_clipboard_restriction_text_1"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_remotedesktopservices_limitservertoclientclipboardredirection_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -69,7 +74,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_remotedesktopservices_disconnectonlockmicrosoftidentityauthn_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

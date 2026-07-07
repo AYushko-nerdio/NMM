@@ -13,7 +13,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge~extensions_blockexternalextensions_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -72,11 +73,13 @@
                   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                   "value": "piilhopgoheagglmepbmkpodfceclmab"
                 }
-              ]
+              ],
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallforcelist_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -95,11 +98,13 @@
                   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                   "value": "*"
                 }
-              ]
+              ],
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],
