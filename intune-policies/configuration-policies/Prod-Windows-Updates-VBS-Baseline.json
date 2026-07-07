@@ -9,17 +9,23 @@
     "settingCount": 1,
     "technologies": "mdm",
     "templateReference": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
         "templateId": "",
-        "templateFamily": "none"
+        "templateFamily": "none",
+        "templateDisplayName": null,
+        "templateDisplayVersion": null
     },
     "settings": [
         {
-            "id": "0",
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
             "settingInstance": {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
                 "settingDefinitionId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity",
+                "settingInstanceTemplateReference": null,
+                "auditRuleInformation": null,
                 "choiceSettingValue": {
                     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                    "settingValueTemplateReference": null,
                     "value": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity_2",
                     "children": []
                 }
