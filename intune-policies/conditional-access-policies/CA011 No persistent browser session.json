@@ -18,7 +18,6 @@
         "platforms": null,
         "locations": null,
         "signInRiskLevels": [],
-        "userRiskLevels": [],
         "clientAppTypes": [0]
     },
     "grantControls": null,
@@ -26,8 +25,6 @@
         "applicationEnforcedRestrictions": null,
         "cloudAppSecurity": null,
         "signInFrequency": {
-            "authenticationType": "primaryAndSecondaryAuthentication",
-            "frequencyInterval": "timeBased",
             "type": 1,
             "value": 1,
             "isEnabled": true
@@ -35,7 +32,6 @@
         "persistentBrowser": {
             "mode": 1,
             "isEnabled": true
-        },
-        "blockSensitiveActions": null
+        }
     }
 }
