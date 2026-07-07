@@ -20,7 +20,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disableaccountprotectionui_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -39,7 +40,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disableappbrowserui_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -58,7 +60,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disablecleartpmbutton_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -77,7 +80,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disabledevicesecurityui_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -96,7 +100,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disablefamilyui_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -115,7 +120,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disablehealthui_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -134,7 +140,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disablenetworkui_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -153,7 +160,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disableenhancednotifications_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -172,7 +180,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disabletpmfirmwareupdatewarning_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -191,7 +200,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disablevirusui_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -210,7 +220,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_hideransomwaredatarecovery_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -229,7 +240,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_hidewindowssecuritynotificationareacontrol_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -248,7 +260,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_enablecustomizedtoasts_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

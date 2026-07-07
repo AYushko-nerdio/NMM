@@ -20,7 +20,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowarchivescanning_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -39,7 +40,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -58,7 +60,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowcloudprotection_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -77,7 +80,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowemailscanning_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -96,7 +100,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -115,7 +120,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -134,7 +140,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowioavprotection_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -153,7 +160,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -172,7 +180,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -191,7 +200,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowscriptscanning_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -210,7 +220,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowuseruiaccess_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -228,7 +239,8 @@
             "useTemplateDefault": false
           },
           "value": 50
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -247,7 +259,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -266,7 +279,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_cloudblocklevel_2"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -284,7 +298,8 @@
             "useTemplateDefault": false
           },
           "value": 30
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -302,7 +317,8 @@
             "useTemplateDefault": false
           },
           "value": 7
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -321,7 +337,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_enablelowcpupriority_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -340,7 +357,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_enablenetworkprotection_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -359,7 +377,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_puaprotection_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -378,7 +397,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_realtimescandirection_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -397,7 +417,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_scanparameter_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -415,7 +436,8 @@
             "useTemplateDefault": false
           },
           "value": 720
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -434,7 +456,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_schedulescanday_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -452,7 +475,8 @@
             "useTemplateDefault": false
           },
           "value": 4
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -471,7 +495,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_submitsamplesconsent_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -490,7 +515,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_disablelocaladminmerge_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -509,7 +535,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_policy_config_defender_allowonaccessprotection_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -531,7 +558,8 @@
                   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                   "children": [],
                   "value": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats_block"
-                }
+                },
+                "auditRuleInformation": null
               },
               {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
@@ -540,7 +568,8 @@
                   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                   "children": [],
                   "value": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_quarantine"
-                }
+                },
+                "auditRuleInformation": null
               },
               {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
@@ -549,7 +578,8 @@
                   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                   "children": [],
                   "value": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats_clean"
-                }
+                },
+                "auditRuleInformation": null
               },
               {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
@@ -558,11 +588,13 @@
                   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                   "children": [],
                   "value": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats_block"
-                }
+                },
+                "auditRuleInformation": null
               }
             ]
           }
-        ]
+        ],
+        "auditRuleInformation": null
       }
     },
     {
@@ -581,7 +613,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -600,7 +633,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_disablednsovertcpparsing_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -619,7 +653,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_disablehttpparsing_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -638,7 +673,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_disablesshparsing_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -657,7 +693,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_disabletlsparsing_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -676,7 +713,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_enablednssinkhole_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -695,7 +733,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_meteredconnectionupdates_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

@@ -13,7 +13,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_storage_allowstoragesenseglobal_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -25,7 +26,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_storage_allowstoragesensetemporaryfilescleanup_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -36,7 +38,8 @@
         "simpleSettingValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 30
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -47,7 +50,8 @@
         "simpleSettingValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 60
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -58,7 +62,8 @@
         "simpleSettingValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 7
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -69,7 +74,8 @@
         "simpleSettingValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 60
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

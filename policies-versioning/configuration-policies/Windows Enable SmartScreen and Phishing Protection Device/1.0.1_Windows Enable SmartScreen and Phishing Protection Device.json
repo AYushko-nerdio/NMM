@@ -13,7 +13,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_smartscreen_enablesmartscreeninshell_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -25,7 +26,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -37,7 +39,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -49,7 +52,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -61,7 +65,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -73,7 +78,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -85,7 +91,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_smartscreen_preventoverrideforfilesinshell_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

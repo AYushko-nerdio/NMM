@@ -13,7 +13,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_sensors_disablelocationscripting_2_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -25,7 +26,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_sensors_disablesensors_2_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -37,7 +39,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_locationprovideradm_disablewindowslocationprovider_1_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -49,7 +52,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -61,7 +65,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_admx_windowsstore_removewindowsstore_2_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -73,7 +78,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_authentication_allowaadpasswordreset_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -85,7 +91,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_experience_allowcortana_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -97,7 +104,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_experience_configurechaticon_3"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -109,7 +117,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -121,7 +130,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -133,7 +143,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_privacy_letappsaccesscamera_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -158,7 +169,8 @@
             "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
             "value": "MicrosoftCorporationII.Windows365_8wekyb3d8bbwe"
           }
-        ]
+        ],
+        "auditRuleInformation": null
       }
     },
     {
@@ -170,7 +182,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_privacy_letappsaccesslocation_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -195,7 +208,8 @@
             "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
             "value": "MicrosoftCorporationII.Windows365_8wekyb3d8bbwe"
           }
-        ]
+        ],
+        "auditRuleInformation": null
       }
     },
     {
@@ -207,7 +221,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_privacy_letappsaccessmicrophone_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -232,7 +247,8 @@
             "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
             "value": "MicrosoftCorporationII.Windows365_8wekyb3d8bbwe"
           }
-        ]
+        ],
+        "auditRuleInformation": null
       }
     },
     {
@@ -244,7 +260,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_search_allowsearchtouselocation_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -256,7 +273,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_system_allowlocation_2"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -268,7 +286,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -280,7 +299,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_windowslogon_enablefirstlogonanimation_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

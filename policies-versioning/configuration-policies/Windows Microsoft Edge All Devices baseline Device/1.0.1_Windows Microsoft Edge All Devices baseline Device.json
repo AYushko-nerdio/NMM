@@ -19,11 +19,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_adssettingforintrusiveadssites_adssettingforintrusiveadssites_2"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_adssettingforintrusiveadssites_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -41,11 +43,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_downloadrestrictions_downloadrestrictions_1"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_downloadrestrictions_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -57,7 +61,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importpaymentinfo_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -69,7 +74,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev93~policy~microsoft_edge_msawebsitessousingthisprofileallowed_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -81,7 +87,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_userfeedbackallowed_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -93,7 +100,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev83diff~policy~microsoft_edge_familysafetysettingsenabled_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -111,11 +119,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge_automatichttpsdefault_automatichttpsdefault_1"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge_automatichttpsdefault_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -127,7 +137,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_configuredonottrack_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -144,11 +155,13 @@
               "simpleSettingValue": {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                 "value": "[{\"toplevel_name\":\"Microsoft 365\"},{\"url\":\"https://m365.cloud.microsoft/?auth=2\",\"name\":\"Microsoft 365\"},{\"url\":\"https://www.bing.com/\",\"name\":\"Bing\"},{\"url\":\"https://outlook.office.com/mail/\",\"name\":\"Outlook\"},{\"url\":\"https://engage.cloud.microsoft/main/feed\",\"name\":\"Viva Engage\"},{\"url\":\"https://make.powerautomate.com/\",\"name\":\"Power Automate\"},{\"url\":\"https://tasks.office.com/\",\"name\":\"Planner\"},{\"url\":\"https://to-do.office.com/\",\"name\":\"To Do\"},{\"url\":\"https://loop.cloud.microsoft/\",\"name\":\"Loop\"},{\"url\":\"https://insights.cloud.microsoft/\",\"name\":\"Viva Insights\"},{\"url\":\"https://viva.cloud.microsoft/\",\"name\":\"Viva\"},{\"url\":\"https://whiteboard.office.com/\",\"name\":\"Whiteboard\"}]"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_managedfavorites_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -195,11 +208,13 @@
                   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                   "value": "settings"
                 }
-              ]
+              ],
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edgev96~policy~microsoft_edge_forcesynctypes_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -211,7 +226,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_nonremovableprofileenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -223,7 +239,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_syncdisabled_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -235,7 +252,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev86~policy~microsoft_edge_forcesync_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -247,7 +265,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_hidefirstrunexperience_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -259,7 +278,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev93~policy~microsoft_edge~identity_implicitsigninenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -271,7 +291,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev133~policy~microsoft_edge~identity_seamlesswebtobrowsersigninenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -283,7 +304,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev133~policy~microsoft_edge~identity_webtobrowsersigninenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -301,11 +323,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_relaunchnotification_relaunchnotification_2"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_relaunchnotification_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -317,7 +341,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev85diff~policy~microsoft_edge~passwordmanager_passwordmonitorallowed_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -329,7 +354,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev93~policy~microsoft_edge~passwordmanager_passwordgeneratorenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -347,11 +373,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~passwordmanager_passwordprotectionwarningtrigger_passwordprotectionwarningtrigger_1"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~passwordmanager_passwordprotectionwarningtrigger_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -369,11 +397,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_microsoft_edgev93~policy~microsoft_edge~passwordmanager_primarypasswordsetting_primarypasswordsetting_0"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edgev93~policy~microsoft_edge~passwordmanager_primarypasswordsetting_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -385,7 +415,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev130~policy~microsoft_edge~performance_extensionsperformancedetectorenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -397,7 +428,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev107~policy~microsoft_edge~performance_performancedetectorenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -409,7 +441,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev134~policy~microsoft_edge~scarewareblocker_scarewareblockerprotectionenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -421,7 +454,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev87~policy~microsoft_edge_edgeshoppingassistantenabled_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -433,7 +467,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge_showmicrosoftrewards_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -445,7 +480,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge~sleepingtabs_sleepingtabsenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -457,7 +493,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -469,7 +506,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge~smartscreen_smartscreenpuaenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -481,7 +519,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev97~policy~microsoft_edge~smartscreen_smartscreendnsrequestsenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -493,7 +532,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -505,7 +545,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -517,7 +558,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev91~policy~microsoft_edge~startup_newtabpagecontentenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -535,11 +577,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_microsoft_edgev79diff~policy~microsoft_edge~startup_newtabpagesetfeedtype_newtabpagesetfeedtype_1"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edgev79diff~policy~microsoft_edge~startup_newtabpagesetfeedtype_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -551,7 +595,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_newtabpagehidedefaulttopsites_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -563,7 +608,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_showhomebutton_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -575,7 +621,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edgev96~policy~microsoft_edge~typosquattingchecker_typosquattingcheckerenabled_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -587,7 +634,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_recommended_autofillcreditcardenabled_recommended_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -605,11 +653,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_recommended~startup_recommended_restoreonstartup_recommended_restoreonstartup_1"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_recommended~startup_recommended_restoreonstartup_recommended_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -626,11 +676,13 @@
               "simpleSettingValue": {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                 "value": "https://m365.cloud.microsoft/?auth=2"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_recommended~startup_recommended_homepagelocation_recommended_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -647,11 +699,13 @@
               "simpleSettingValue": {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                 "value": "[{\"url\":\"https://m365.cloud.microsoft/?auth=2/\",\"pinned\":true,\"title\":\"Microsoft 365\"},{\"url\":\"https://myapplications.microsoft.com/\",\"pinned\":true,\"title\":\"My Apps\"},{\"url\":\"https://myaccount.microsoft.com/\",\"pinned\":true,\"title\":\"My Account\"}]"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_microsoft_edgev79diff~policy~microsoft_edge_recommended~startup_recommended_newtabpagemanagedquicklinks_recommended_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -663,7 +717,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_updatev83diff~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_createdesktopshortcutmicrosoftedge_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -681,11 +736,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_updatev95~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_targetchannelmicrosoftedge_part_targetchannel_stable"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_updatev95~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_targetchannelmicrosoftedge_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -703,11 +760,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "device_vendor_msft_policy_config_update~policy~cat_google~cat_googleupdate~cat_applications~cat_microsoftedge_pol_updatepolicymicrosoftedge_part_updatepolicy_1"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "device_vendor_msft_policy_config_update~policy~cat_google~cat_googleupdate~cat_applications~cat_microsoftedge_pol_updatepolicymicrosoftedge_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -719,7 +778,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_updatev83diff~policy~cat_edgeupdate~cat_applications~cat_microsoftedgebeta_pol_createdesktopshortcutmicrosoftedgebeta_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -731,7 +791,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_updatev83diff~policy~cat_edgeupdate~cat_applications~cat_microsoftedgecanary_pol_createdesktopshortcutmicrosoftedgecanary_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -743,7 +804,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_updatev83diff~policy~cat_edgeupdate~cat_applications~cat_microsoftedgedev_pol_createdesktopshortcutmicrosoftedgedev_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -755,7 +817,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "device_vendor_msft_policy_config_updatev83diff~policy~cat_edgeupdate~cat_applications_pol_defaultcreatedesktopshortcut_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

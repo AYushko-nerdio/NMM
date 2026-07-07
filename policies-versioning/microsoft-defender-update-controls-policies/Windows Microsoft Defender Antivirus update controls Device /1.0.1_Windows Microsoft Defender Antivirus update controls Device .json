@@ -20,7 +20,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_engineupdateschannel_5"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -39,7 +40,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_platformupdateschannel_5"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -58,7 +60,8 @@
           },
           "children": [],
           "value": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_5"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

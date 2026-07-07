@@ -13,7 +13,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v7~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendsurvey_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -25,7 +26,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_screenshot_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -37,7 +39,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v7~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_emailcollection_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -49,7 +52,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_optionalconnectedexperiences_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -61,7 +65,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v2.updates.2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_connectedofficeexperiences_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -73,7 +78,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_officeexperiencesanlayzingcontent_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -85,7 +91,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v2.updates.3~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_officeexperiencesdownloadingcontent_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -97,7 +104,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v8~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_logcollection_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -109,7 +117,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_updatereliabilitypolicy_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -127,11 +136,13 @@
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                 "children": [],
                 "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendtelemetry_l_sendtelemetrydropid_2"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendtelemetry_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -143,7 +154,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_disableoptinwizard_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -155,7 +167,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_enablecustomerexperienceimprovementprogram_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -167,7 +180,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendfeedback_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -179,7 +193,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendcustomerdata_0"
-        }
+        },
+        "auditRuleInformation": null
       }
     },
     {
@@ -191,7 +206,8 @@
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
           "children": [],
           "value": "user_vendor_msft_policy_config_outlk16v11~policy~l_microsoftofficeoutlook~l_outlookoptions~l_other_l_hidenewoutlooktoggle_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

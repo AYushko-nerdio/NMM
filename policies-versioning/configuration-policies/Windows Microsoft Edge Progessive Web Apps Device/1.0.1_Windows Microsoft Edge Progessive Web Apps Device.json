@@ -18,11 +18,13 @@
               "simpleSettingValue": {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                 "value": "[{\"url\":\"https://loop.cloud.microsoft/?clientType=pwa\",\"default_launch_container\":\"window\",\"custom_name\":\"Microsoft Loop\"},{\"url\":\"https://engage.cloud.microsoft/main/?utm_source=homescreen&utm_medium=shortcut&isPWA=true\",\"default_launch_container\":\"window\",\"custom_name\":\"Viva Engage\"},{\"url\":\"https://learning.cloud.microsoft/home/providers\",\"default_launch_container\":\"window\",\"custom_name\":\"Viva Learning\"}]"
-              }
+              },
+              "auditRuleInformation": null
             }
           ],
           "value": "user_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_webappinstallforcelist_1"
-        }
+        },
+        "auditRuleInformation": null
       }
     }
   ],

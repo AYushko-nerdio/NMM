@@ -32,7 +32,8 @@
                             "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                             "value": "com.microsoft.wdav.netext\t"
                           }
-                        ]
+                        ],
+                        "auditRuleInformation": null
                       },
                       {
                         "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
@@ -40,15 +41,18 @@
                         "simpleSettingValue": {
                           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
                           "value": "UBF8T346G9"
-                        }
+                        },
+                        "auditRuleInformation": null
                       }
                     ]
                   }
-                ]
+                ],
+                "auditRuleInformation": null
               }
             ]
           }
-        ]
+        ],
+        "auditRuleInformation": null
       }
     }
   ],
